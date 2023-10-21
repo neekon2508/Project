@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        body {
+            font: 12pt Verdana;
+        }
+        #header {
+            height: 150px;
+        }
+        #nav {
+            clear:left;
+        }
+        #nav ul {
+            list-style-type: none;
+            position: relative;
+            background-color: #669999;
+            text-align: center;
+
+        }
+        #nav ul li {
+            position: relative;
+            display: inline-table;
+            
+        }
+        #nav ul li a {
+            text-decoration: none;
+            width: 200px;
+            padding: 0px 10px;
+          
+        }
+        #nav ul li a:link, #nav ul li a:visited {
+            font-size: 15pt;
+            font-weight: bold;
+            display: block;
+            background-color: #669999;
+            color: black;
+        }
+        #nav ul li a:hover, #nav ul li a:active
+        {
+            font-size: 15pt;
+            font-weight: bold;
+            display: block;
+            background-color: #ff9933;
+            color: white;
+        }
+        #nav ul li > .submenu {
+            display:none;
+            position: absolute;
+        }
+        #nav ul li:hover .submenu {
+            display: block;
+        }
+        #pro {
+            width: 30%;
+            height: 430px;
+            margin: 0px 20px 40px 20px;
+            font-size: 20px;
+            float:left;
+            
+        }
+        #footer {
+            background-color: #ffcc66;
+           
+        }
+        #f1 {
+            
+            float:left;
+            width:25%;
+            font-weight: bold;
+            height:115px;
+            background-color: #ffcc66;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header" style="background-color:#33CCCC">
+        <div id="h1" style="float:left;width: 10%;background-color:#33CCCC;font-size: 50px;padding-top:10px" >
+           HSC
+        </div>
+        <div style="float: left;width: 80%;background-color:#33CCCC;padding-top:30px;padding-left:50px;text-align: center; ">
+            <h1>CÔNG TY TNHH CÔNG NGHỆ HSC</h1>
+            <P>Tel: 0456839668 - Fax: 0466805132</P>
+        </div>
+        <img src="anh.jpg" height="150px" width="140" alt="" style="float:left;background-color:#33CCCC">
+    </div>
+    <div id="nav">
+        <ul>
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Sản phẩm</a>
+                <ul class="submenu">
+                    <li><a href="">Máy Server</a></li>
+                    <li><a href="">Máy Desktop</a></li>
+                    <li><a href="">Máy Laptop</a></li>
+                    <li><a href="">Projector</a></li>
+                    <li><a href="">Workstation</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">Dự án</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><input type="text" height="25" width="100px"></li>
+            <li><input type="submit" value="Tìm kiếm"></li>
+        </ul>
+
+    </div>
+    <img src="bia.jpg" alt="" width="1920px"  height="200px">
+    <div id="pro">
+        <h3>CÔNG NGHỆ THÔNG TIN</h3>
+        <img src="bia.jpg" height="300" width="570" alt="">
+        <p>Em Lê Văn Phúc - học sinh lớp 12C7, trường THPT chuyên Hùng Vương (TP Pleiku, tỉnh Gia Lai) hiện là chủ nhiệm câu lạc bộ</p>
+    </div>
+    <div id="pro">
+        <h3>THIẾT BỊ Y TẾ</h3>
+        <img src="bia.jpg" height="300" width="570" alt="">
+        <p>Em Lê Văn Phúc - học sinh lớp 12C7, trường THPT chuyên Hùng Vương (TP Pleiku, tỉnh Gia Lai) hiện là chủ nhiệm câu lạc bộ</p>
+
+    </div>
+    <div id="pro">
+        <h3>CƠ ĐIỆN</h3>
+        <img src="bia.jpg" height="300" width="570" alt="">
+        <p>Em Lê Văn Phúc - học sinh lớp 12C7, trường THPT chuyên Hùng Vương (TP Pleiku, tỉnh Gia Lai) hiện là chủ nhiệm câu lạc bộ</p>
+
+    </div>
+    <div id="footer">
+        <div id="f1" style="">
+            <h3 style="padding-left: 50px;">VỀ CHÚNG TÔI</h3>
+            <ul style="padding-left: 50px;">
+                <li>Trang chủ</li>
+                <li>Giới thiệu</li>
+                <li>Quan hệ cổ đông</li>
+            </ul>
+        </div>
+        
+        <div id="f1" style=>
+            <h3 style="padding-left: 80px;">VỀ CHÚNG TÔI</h3>
+            <ul style="padding-left: 80px;">
+                <li>Trang chủ</li>
+                <li>Giới thiệu</li>
+                <li>Quan hệ cổ đông</li>
+            </ul>
+        </div>
+        <div id="f1" style=>
+            <h3 style="padding-left: 100px;">VỀ CHÚNG TÔI</h3>
+            <ul style="padding-left: 100px;">
+                <li>Trang chủ</li>
+                <li>Giới thiệu</li>
+                <li>Giới thiệu</li>
+                <li>Quan hệ cổ đông</li>
+            </ul>
+        </div>
+        <div style="background-color: #ffcc66;width: 25%;float:left;text-align: right;height:115px;">
+            <h3>VỀ CHÚNG TÔI</h3>
+            <ul style="font-weight: bold;list-style-type: none;">
+                <li>Trang chủ</li>
+                <li>Giới thiệu</li>
+                <li>Quan hệ cổ đông</li>
+                <li>Quan hệ cổ đông</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
